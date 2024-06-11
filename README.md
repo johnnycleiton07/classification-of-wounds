@@ -81,12 +81,12 @@ The implementation of YOLOv8 began in the Google Colab environment using an NVID
 
 Training the wound classification and localization network for a single class ("wound") yielded satisfactory results after 50 epochs, with accurate localization achieved through a single bounding box. Earlier epochs generated multiple bounding boxes for one detection, highlighting the impact of epoch number on model refinement.
 
-<section>
-  <div align="center">
-    <img src="article/assets/Classification result using 5 epochs.jpg" alt="Classification Result using 5 epochs" style="display: block; margin: 0 auto; width: 50%;">
-    <img src="article/assets/Classification result using 50 epochs.jpg" alt="Classification Result using 50 epochs" style="display: block; margin: 0 auto; width: 50%;">
-  </div>
-</section>
+
+| ![Classification Result using 5 epochs](article/assets/Classification_result_using_5_epochs.png) | ![Classification Result using 50 epochs](article/assets/Classification_result_using_50_epochs.png) |
+|:--:|:--:|
+| *Classification Result using 5 epochs* | *Classification Result using 50 epochs* |
+
+
 
 The classification with 5 epochs shows erroneous recognition of the "background," where objects besides wounds were misclassified as wounds. Furthermore, some wounds were not recognized, indicating insufficient learning within the model.
 

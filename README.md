@@ -22,12 +22,23 @@ This work investigates the application of the YOLOv8 algorithm for the detection
 
 **Computer Vision (CV)** empowers computers to interpret visual information, simulating human image processing, with applications across medicine, automation, security, and more. This field involves developing algorithms for tasks like image classification, where systems assign labels to objects based on probabilities, akin to human visual categorization. Additionally, CV encompasses localization, determining objects' precise positions using bounding boxes, and detection, identifying multiple objects and their locations. This work focuses on classification and localization, highlighting their importance in accurately understanding and identifying specific elements within images.
 
-<section>
-  <div align="center">
-    <img src="/article/assets/computer_vision_classification_cat.png" alt="Classificação de Visão Computacional" style="width: 50%; margin-bottom: 50px;">
-    <img src="/article/assets/computer_vision_localization_cat.png" alt="Localização de Visão Computacional" style="width: 50%;">
-  </div>
-</section>
+
+<div align="center">
+  
+| ![Classificação de Visão Computacional](/article/assets/computer_vision_classification_cat.png). |
+|:--:|
+| *Computer Vision Classification* |
+
+</div>
+
+
+<div align="center">
+  
+| ![Classificação de Visão Computacional](/article/assets/computer_vision_localization_cat.png). |
+|:--:|
+| *Computer Vision Classification + Localization* |
+
+</div>
 
 **The YOLO (You Only Look Once)** framework is notable for its balance between speed and accuracy in object detection, outperforming traditional methods like R-CNN by performing detection in a single neural network pass. This efficiency makes YOLO faster and more computationally effective. Among its eight versions, YOLOv8, released by Ultralytics in January 2023, includes five scaled models—YOLOv8n, YOLOv8s, YOLOv8m, YOLOv8l, and YOLOv8x—each tailored to different applications and hardware needs. This work specifically uses YOLOv8 for enhanced detection and classification tasks.
 

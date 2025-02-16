@@ -156,6 +156,6 @@ The confusion matrix from training with 50 epochs indicates that no class achiev
 
 </div>
 
-## CONCLUSION
+## ADDITIONAL INFORMATION
 
 If you want to access the full study and know the references used, you can read the [article](https://github.com/johnnycleiton07/classification-of-wounds/blob/main/article/Johnny_Cleiton___Computer_Vision_for_Automatic_Classification_of_Wounds_with_YOLOv8_Neural_Network.pdf).

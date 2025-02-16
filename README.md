@@ -66,7 +66,7 @@ Dermal wounds can be categorized into three main types: surgical, pathological, 
   
 | ![Classificação de Visão Computacional](/article/assets/wounds_type_classification.png) |
 |:--:|
-| *Wound Type Classification* |
+| *Wound type classification* |
 
 </div>
 
@@ -83,7 +83,7 @@ To train YOLOv8, a dataset of 837 images was used, comprising 223 images of surg
   
 | ![Classificação de Visão Computacional](/article/assets/dataset_distribution.png) |
 |:--:|
-| *Dataset Distribution* |
+| *Dataset distribution* |
 
 </div>
 
@@ -116,7 +116,7 @@ Training the wound classification and localization network for a single class ("
 
 | ![Classification Result using 5 epochs](article/assets/Classification_result_using_5_epochs.png) | ![Classification Result using 50 epochs](article/assets/Classification_result_using_50_epochs.png) |
 |:--:|:--:|
-| *Classification Result using 5 epochs* | *Classification Result using 50 epochs* |
+| *Classification result using 5 epochs* | *Classification result using 50 epochs* |
 
 
 
@@ -152,7 +152,7 @@ The confusion matrix from training with 50 epochs indicates that no class achiev
   
 | ![Classificação de Visão Computacional](article/assets/confusion_matrix_normalized_50_epochs.png) |
 |:--:|
-| *Confusion Matrix (50 epochs)* |
+| *Confusion matrix (50 epochs)* |
 
 </div>
 
